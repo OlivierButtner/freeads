@@ -1,0 +1,441 @@
+body {
+    font-family: Arial;
+
+    margin: auto;
+}
+
+.alert {
+    border: 1px solid #009879;
+    background-color: rgba(0, 152, 121, 0.1);
+}
+
+
+#burger{
+    display: none;
+}
+
+    .menu-hamburger ,#myDIV{
+        padding-left: 20px;
+        padding-right: 20px;
+        display: none;
+        list-style-type: none;
+        margin-top: 51px;
+        position: fixed;
+
+    }
+
+.content-table img{
+       width:80px;
+       height:80px;
+
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+input[type=text], [type=email], [type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #009879;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.top-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+    align-items: center;
+}
+
+.link-topbar {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+    cursor: pointer;
+
+}
+
+.logo {
+  
+    font-size: 50px;
+    background-color: #009879;
+    color:white;
+}
+
+
+
+
+.home {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.checkbox-hamburger {
+    display: none;
+}
+
+
+.loupe {
+    height: 50px;
+    width: auto;
+}
+
+.search-bar {
+    flex-grow: 2;
+}
+
+.search {
+    border: none;
+    border-bottom: 1px solid #009879;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.submit {
+    display: none;
+}
+
+.my-page {
+    padding-right: 20px;
+}
+
+.alert {
+    border: 1px solid #009879;
+    background-color: rgba(0, 152, 121, 0.1);
+}
+
+.post-ads {
+    background-color: limegreen;
+    /* border: 1px solid darkslategrey; */
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+.login {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.link-post-ads {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.entire-page-index {
+    display: flex;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+.entire-page {
+    display: flex;
+
+    flex-direction:column;
+    
+    padding-top: 100px;
+    gap: 10px;
+}
+
+
+
+
+.left-filter {
+    
+
+    border: 1px solid #009879;
+    border-radius: 20px;
+    width: 10%;
+    max-width: 300px;
+    height: 80%;
+
+}
+
+.left-filter input{
+    width: 90%;
+    text-align: center;
+
+}
+
+.price-filter {
+    width: 50px;
+}
+
+.product-display {
+    border-radius: 20px;
+    width: 80%;
+    font-weight: bolder;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    gap: 10px;
+}
+
+.product-box {
+    max-width: 500px;
+    height: 200px;
+    border: 1px solid #009879;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    margin-top: 25px;
+}
+
+.ads-picture {
+    width: 300px;
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 20px;
+    margin-left: 5px;
+
+}
+
+.ads-picture img {
+    width: 300px;
+    height: auto;
+    max-height: 150px;
+    border-radius: 20px;
+}
+
+.ads-price {
+    width: 100px;
+    height: 25px;
+    border: 1px solid #009879;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 40px;
+    left: 75px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.right-box {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.ads-desc {
+    font-weight: normal;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table img {
+    width: 80px;
+    height: 80px;
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+@media screen and (max-width: 750px) {
+    .home, .my-page, .post-ads {
+        display: none;
+    }
+
+    .menu-hamburger ,#myDIV{
+        padding-left: 20px;
+        padding-right: 20px;
+        display: none;
+        list-style-type: none;
+        margin-top: 51px;
+        position: fixed;
+
+    }
+    #burger{
+    display: block;
+}
+
+    .menu-toggle {
+        padding-left: 20px;
+        font-weight: bolder;
+    }
+
+    .checkbox-hamburger:checked ~ .menu-hamburger {
+        display: block;
+    }
+
+    .link-topbar-hamburger {
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+
+    .post-ads-hamburger {
+        background-color: limegreen;
+        /* border: 1px solid darkslategrey; */
+        border-radius: 20px;
+        padding: 5px 20px 5px 20px;
+    }
+
+    .link-post-ads-hamburger {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    .product-box {
+        max-width: 500px;
+        height: auto;
+        border: 1px solid #009879;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .left-box {
+        margin-top: 25px;
+    }
+
+    .ads-picture {
+        /* width: 300px;*/
+        max-width: 300px;
+        max-height: 200px;
+        border-radius: 20px;
+        margin-left: 5px;
+    }
+
+    .ads-picture img {
+        max-width: 300px;
+
+        height: auto;
+        max-height: 150px;
+        border-radius: 20px;
+    }
+
+    .ads-price {
+        width: 100px;
+        height: 25px;
+        border: 1px solid #009879;
+        border-radius: 20px;
+        background-color: white;
+        position: relative;
+        bottom: 40px;
+        left: 75px;
+        text-align: center;
+        padding-top: 5px;
+
+
+    }
+
+    .right-box {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media screen and (min-width: 750px) {
+
+
+
+    .menu-toggle {
+        display: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: bolder;
+    }
+
+}
